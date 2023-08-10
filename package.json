@@ -1,0 +1,38 @@
+{
+  "name": "travelagency-frontend",
+  "version": "1.0.0",
+  "description": "Travel Agency - Software Web",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "gulp"
+  },
+  "keywords": [
+    "Gulp",
+    "CSS3",
+    "HTML5",
+    "JavaScript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.10",
+    "@babel/plugin-transform-modules-commonjs": "^7.22.5",
+    "@babel/preset-env": "^7.22.10",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-file-include": "^2.3.0",
+    "gulp-format-html": "^2.2.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-remove-empty-lines": "^0.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
